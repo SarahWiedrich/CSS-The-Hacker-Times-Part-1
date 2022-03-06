@@ -6,7 +6,7 @@
     background-color: white;
     padding: 20px;
 }
-
+/* corner date */
 .date {
     font-family: sans-serif;
     color: #6e6e6e;
@@ -51,15 +51,16 @@ p {
     font-weight: lighter;
 }
 
+/* Navigation */
 ul {
     margin-top: 8px;
     margin-bottom: 8px;
 }
 
-ul li { 
+ul li:hover { 
     list-style-type: none;
     display: inline-block;
-    padding: 0px 10px 0px 10px;
+    padding: 0px 20px 0px 25px;
     font-weight: lighter;
 }
 
@@ -73,8 +74,12 @@ a {
     border-bottom-style: solid;
     border-width: thin;
     border-color: #dbdbdb;
+    position: sticky;
+    top:0;
+    background-color: white;
 }
 
+/* Articles */
 section {
     display: inline-block;
     width: 47%;
